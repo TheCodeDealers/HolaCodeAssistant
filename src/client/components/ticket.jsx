@@ -28,7 +28,7 @@ class Ticket extends Component {
 
     return (
       <div>
-        <button className="buttons" onClick={this.onOpenModal}><i class="fas fa-info-circle"></i>
+        <button title='Open Ticket' className="buttons" onClick={this.onOpenModal}><i class="fas fa-info-circle"></i>
         <p className="textcolor">
         </p>
         </button>

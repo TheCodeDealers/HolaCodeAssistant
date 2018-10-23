@@ -26,7 +26,7 @@ class Attendance extends Component {
 
     return (
       <div>
-        <button className="button1" onClick={this.onOpenModal}><i class="fas fa-user-check"></i>
+        <button title='Attendance' className="button1" onClick={this.onOpenModal}><i class="fas fa-user-check"></i>
         <p className="textcolor">
         </p>
         </button>

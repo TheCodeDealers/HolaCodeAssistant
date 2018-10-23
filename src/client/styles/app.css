@@ -11,11 +11,12 @@
     url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
 
+body {
+  font-family: 'Mandali'
+}
+
 .material-icons {
   border-color: transparent !important;
-  font-size: 3em;
-  margin-left: .5vw;
-  margin-top: .4vw;
 }
 
 .exit {
@@ -23,6 +24,10 @@
   margin-left: .5vw;
   padding-right: .5vw;
   border-radius: 15%;
+}
+
+.exitButton {
+  font-size: 3em;
 }
 
 button {
@@ -40,7 +45,7 @@ button {
 }
 
 .selected {
-  height: 100vw;
+  height:53vw;
   background: url("clips.jpg") no-repeat center center fixed;
   background-size: cover;
 }
@@ -73,7 +78,6 @@ h2 {
 #messages{
   background-image: url("Background.jpg");
   margin-left: 1vw;
-  margin-right: 1vw;
   font-family: 'Mandali';
   font-size: 1em;
 }
@@ -107,8 +111,8 @@ h2 {
 }
 .tickets {
   border: solid 1px #777;
-  width: 395px;
-  max-height: 700px;
+  width: 97%;
+  height: 100%;
   min-height: 220px;
 }
 .rowNoFlex{
@@ -151,7 +155,7 @@ h2 {
 
 .button2{
   position: absolute;
-  right: 50%;
+  right: 51%;
   top: 79%;
   width: 4vw;
   height: 4vw;
@@ -165,14 +169,19 @@ h2 {
 .button3{
   position: absolute;
   margin-left: 3vw;
-  top: 79%;
+  top: 79.5%;
   width: 4vw;
   height: 4vw;
   border-radius: 100%;
   border-color: transparent;
-  font-size:.75em;
+  font-size:1.7em;
   font-family: 'Mandali';
 }
+
+.weekly {
+  font-size: 1.1em;
+}
+
 .sidebartitle{
   background-color: white;
   box-shadow: 1px 0.5px 6px #aaaaaa;
@@ -196,6 +205,10 @@ button:hover {
 button:active {
   background-color:  #07bcbd; color: White;
   box-shadow: 5px 8px #aaaaaa;
+}
+
+.sendButton {
+  height:2.8vw;
 }
 
 .sendButton button{
@@ -222,6 +235,13 @@ button:active {
   color: white;
 }
 
+.weeklyRetrosFrame {
+  height: 32vw;
+  margin-top: 3vw;
+  margin-left: -6vw;
+  width: 75vw;
+}
+
 .styles_modal__gNwvD {
   width: 90%;
   height: 70%;
@@ -237,7 +257,7 @@ button:active {
 
 .bookmarkForm {
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 15vw;
 }
 
 .inputBookmark {
@@ -259,4 +279,38 @@ button:active {
 
 li {
   list-style: none;
+}
+
+.bookmarkList {
+  margin-top: .5vw;
+  font-family: "Mandali";
+  font-size: 1.4em;
+}
+
+.attendance {
+  margin-top: .5vw;
+  font-family: "Mandali";
+  font-size: 1.7em;
+}
+
+.cameraButton {
+  font-size: 2vw;
+  background-color: transparent !important;
+  margin-left: 27vw !important;
+}
+
+.camera {
+  margin-left: 12vw;
+  margin-top: 7.5vw;
+}
+
+.screenshot {
+  margin-left: 35vw;
+  margin-top: -15.3vw;
+}
+
+.uploadButton {
+  font-size: 2vw;
+  background-color: transparent !important;
+  margin-left: 14vw !important;
 }
